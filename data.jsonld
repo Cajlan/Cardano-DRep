@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -51,14 +52,26 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
     "doNotList": false,
-    "givenName": "Cajlan",
-    "motivations": "",
-    "objectives": "",
-    "paymentAddress": "addr1qyfyqx2ekupwy06x506aecdnfppaugd027fmacrjrd33xkp63s80tdppzhewjghj22g62uukk5c4cdg7e8yuluhv245q8tnm40",
-    "qualifications": "",
+    "givenName": {
+      "@value": "Pavol Korvas"
+    },
+    "motivations": {
+      "@value": ""
+    },
+    "objectives": {
+      "@value": ""
+    },
+    "paymentAddress": {
+      "@value": "addr1qyfyqx2ekupwy06x506aecdnfppaugd027fmacrjrd33xkp63s80tdppzhewjghj22g62uukk5c4cdg7e8yuluhv245q8tnm40"
+    },
+    "qualifications": {
+      "@value": ""
+    },
     "references": []
   }
 }
